@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicked on Organizations link.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on create new organization look-up image.]]>
+    </line>
+    <line>
+      <![CDATA[Organization created.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Contacts link.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on create new contact look-up image.]]>
+    </line>
+    <line>
+      <![CDATA[Contact created.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-11T18:31:28 IST" name="Default suite" finished-at="2024-01-11T18:32:22 IST" duration-ms="53418">
+    <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" name="createContactWithOrganizationTest" class="contacts.CreateContactWithOrganizationTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2024-01-11T18:31:28 IST" name="Default test" finished-at="2024-01-11T18:32:22 IST" duration-ms="53418">
+      <class name="contacts.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:31:28 IST" name="bsConfig" finished-at="2024-01-11T18:31:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bsConfig -->
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:31:28 IST" name="bcConfig" finished-at="2024-01-11T18:31:34 IST" duration-ms="6080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bcConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:31:34 IST" name="bmConfig" finished-at="2024-01-11T18:31:40 IST" duration-ms="5326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:31:40 IST" name="createContactWithOrganizationTest" finished-at="2024-01-11T18:32:17 IST" duration-ms="37645" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on Organizations link.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on create new organization look-up image.]]>
+            </line>
+            <line>
+              <![CDATA[Organization created.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Contacts link.]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on create new contact look-up image.]]>
+            </line>
+            <line>
+              <![CDATA[Contact created.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:32:17 IST" name="amConfig" finished-at="2024-01-11T18:32:20 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:32:20 IST" name="acConfig" finished-at="2024-01-11T18:32:22 IST" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acConfig -->
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:contacts.CreateContactWithOrganizationTest@c8c12ac]" started-at="2024-01-11T18:32:22 IST" name="asConfig" finished-at="2024-01-11T18:32:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asConfig -->
+      </class> <!-- contacts.CreateContactWithOrganizationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
