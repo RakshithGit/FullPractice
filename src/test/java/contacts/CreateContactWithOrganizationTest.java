@@ -21,7 +21,7 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 	public void createContactWithOrganizationTest() throws Throwable {  
 		/*Random ran = new Random();
 		int randomNumber = ran.nextInt(1000);*/
-		
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rajat\\.cache\\selenium\\geckodriver\\win64\\0.34.0\\geckodriver.exe");
 		wUtil.waitForPageLoad(driver);
 		
 		/*PropertyFileUtility pUtil = new PropertyFileUtility();
