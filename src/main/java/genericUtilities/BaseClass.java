@@ -38,6 +38,7 @@ public class BaseClass {
 	//@BeforeTest
 	@BeforeClass(alwaysRun = true)
 	public void bcConfig(/*String BROWSER*/) throws Throwable {
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\rajat\\.cache\\selenium\\geckodriver\\win64\\0.34.0\\geckodriver.exe");
 		String BROWSER = pUtil.readDataFromPropertyFile("browser");
 		String URL = pUtil.readDataFromPropertyFile("url");
 		if(BROWSER.equalsIgnoreCase("chrome")) {
