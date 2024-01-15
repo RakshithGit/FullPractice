@@ -14,7 +14,7 @@ import objectRepository.HomePage;
 import objectRepository.OrganizationsPage;
 
 @Listeners(genericUtilities.ListenersImplementation.class)
-public class CreateContactWithOrganizationTest extends BaseClass{
+public class CreateContactWithOrganizationTest extends BaseClass {
 	
 	@Test(groups = "SmokeSuite") //For group execution, the jvm looks only for annotations that contain groups keyword.
 	//Therefore, even if we have another @Test annotation, only the @Test that has group keyword is executed.
